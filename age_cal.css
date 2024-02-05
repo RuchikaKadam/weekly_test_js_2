@@ -2,17 +2,18 @@ body {
     margin: 0;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
-    background-color: #f7f7f7;
+    background-color: #c1ccee;
   }
   
   .container {
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(159, 179, 246);
+    box-shadow: 10px 20px 15px rgba(11, 19, 38, 0.2);
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
     border-radius: 10px;
     margin-top: 50px;
+    color: rgb(227, 221, 254);
   }
   
   h1 {
@@ -35,10 +36,13 @@ body {
   
   input {
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #c1ccee;
     border-radius: 5px;
     width: 100%;
     max-width: 300px;
+  }
+  input:focus{
+    outline: none;
   }
   
   button {
@@ -54,6 +58,8 @@ body {
   
   button:hover {
     background-color: #0062cc;
+    transform: scale(0.95);
+    border-radius: 10px;
   }
   
   #result {
